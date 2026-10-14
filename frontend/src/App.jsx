@@ -11,6 +11,9 @@ import AddRecipe from "./components/pages/admin/AddRecipe";
 import Farewell from "./components/pages/admin/Farewell";
 import UpdateAccount from "./components/pages/admin/UpdateAccount";
 import EditAuthRecipe from "./components/pages/admin/EditAuthRecipe";
+import About from "./components/pages/Aboutus";
+import Contact from "./components/pages/Contact";
+import PrivacyPolicy from "./components/pages/PrivecyPolicy";
 
 function App() {
   const { authUser } = useAuthContext();
@@ -44,6 +47,9 @@ function App() {
           <Route path="update-account" element={<UpdateAccount />} />
           <Route path="update-recipe/:id" element={<EditAuthRecipe />} />
         </Route>
+        <Route path="/aboutus" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/privecyPolicy" element={<PrivacyPolicy/>} />
       </Routes>
     </>
   );

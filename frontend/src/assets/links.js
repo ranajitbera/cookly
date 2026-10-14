@@ -6,8 +6,8 @@ export const footerLinks = [
       { itm: "Home", href: "/" },
       { itm: "Bolgs", href: "/" },
       { itm: "Catagories", href: "/" },
-      { itm: "About Us", href: "https://portfolio-c82j.onrender.com" },
-      { itm: "Contact", href: "#" },
+      { itm: "About Us", href: "/aboutus" },
+      { itm: "Contact", href: "/contact" },
     ],
   },
   {
@@ -24,16 +24,16 @@ export const footerLinks = [
 export const legal = [
   {
     title: "Privecy Policy",
-    href: "#",
+    href: "/privecyPolicy",
   },
-  {
-    title: "Terms of Service",
-    href: "#",
-  },
-  {
-    title: "Cookies Setting",
-    href: "#",
-  },
+  // {
+  //   title: "Terms of Service",
+  //   href: "#",
+  // },
+  // {
+  //   title: "Cookies Setting",
+  //   href: "#",
+  // },
 ];
 
 export const socialLinks = [
